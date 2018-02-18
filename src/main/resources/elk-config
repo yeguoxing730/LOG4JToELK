@@ -1,3 +1,5 @@
+logstash从log4j获取输入 输出到elasticsearch
+除了可以从log4j取数据还可以从数据库/文件/redis取数据 然后指定输出位置
 step1: install elastic seach 5.4.3
    elasticsearch-service.bat install
    elasticsearch-service.bat manager
@@ -46,3 +48,26 @@ logstash
 http://www.ttlsa.com/log-system/troubleshooting-elk-common-issues/
 
 https://www.cnblogs.com/davidgu/p/6639307.html
+
+other way
+logstash file
+mkdir log4j_file_es.config
+input {
+    file {
+       path => ["C:/ELK/logs/debug.log"]
+    }
+}
+
+output {
+    stdout {
+      codec => rubydebug
+    }
+    elasticsearch{
+        hosts => ["127.0.0.1:9200"]
+        index => "log4jfile-%{+YYYY.MM.dd}"
+        document_type => "log4jfile_type"
+    }
+}
+## run logstash
+logstash.bat -f log4j_file_es.conf
+
