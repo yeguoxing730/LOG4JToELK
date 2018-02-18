@@ -1,0 +1,105 @@
+2018-02-16 12:15:37  [ main:0 ] - [ DEBUG ]  This is a debug message!
+2018-02-16 12:15:37  [ main:24 ] - [ INFO ]  This is info message!
+2018-02-16 12:15:37  [ main:24 ] - [ WARN ]  This is a warn message!
+2018-02-16 12:15:37  [ main:25 ] - [ ERROR ]  This is error message!
+2018-02-16 12:15:37  [ main:32 ] - [ ERROR ]  java.lang.ArithmeticException: / by zero
+2018-02-16 12:17:33  [ main:0 ] - [ DEBUG ]  This is a debug message!
+2018-02-16 12:17:37  [ main:4014 ] - [ INFO ]  This is info message!
+2018-02-16 12:17:37  [ main:4016 ] - [ WARN ]  This is a warn message!
+2018-02-16 12:17:37  [ main:4016 ] - [ ERROR ]  This is error message!
+2018-02-16 12:17:37  [ main:4017 ] - [ ERROR ]  java.lang.ArithmeticException: / by zero
+2018-02-16 12:17:55  [ main:0 ] - [ DEBUG ]  This is a debug message!
+2018-02-16 12:17:55  [ main:6 ] - [ INFO ]  This is info message!
+2018-02-16 12:17:55  [ main:7 ] - [ WARN ]  This is a warn message!
+2018-02-16 12:17:55  [ main:7 ] - [ ERROR ]  This is error message!
+2018-02-16 12:17:55  [ main:8 ] - [ ERROR ]  java.lang.ArithmeticException: / by zero
+2018-02-16 12:19:04  [ main:0 ] - [ DEBUG ]  This is a debug message!
+2018-02-16 12:19:04  [ main:52 ] - [ INFO ]  This is info message!
+2018-02-16 12:19:04  [ main:54 ] - [ WARN ]  This is a warn message!
+2018-02-16 12:19:04  [ main:54 ] - [ ERROR ]  This is error message!
+2018-02-16 12:19:04  [ main:56 ] - [ ERROR ]  java.lang.ArithmeticException: / by zero
+2018-02-16 12:19:37  [ main:0 ] - [ DEBUG ]  This is a debug message!
+2018-02-16 12:19:37  [ main:8 ] - [ INFO ]  This is info message!
+2018-02-16 12:19:37  [ main:8 ] - [ WARN ]  This is a warn message!
+2018-02-16 12:19:37  [ main:9 ] - [ ERROR ]  This is error message!
+2018-02-16 12:19:37  [ main:10 ] - [ ERROR ]  java.lang.ArithmeticException: / by zero
+2018-02-16 12:24:08  [ main:0 ] - [ DEBUG ]  This is a debug message!
+2018-02-16 12:24:08  [ main:5 ] - [ INFO ]  This is info message!
+2018-02-16 12:24:08  [ main:6 ] - [ WARN ]  This is a warn message!
+2018-02-16 12:24:08  [ main:6 ] - [ ERROR ]  This is error message!
+2018-02-16 12:24:08  [ main:7 ] - [ ERROR ]  java.lang.ArithmeticException: / by zero
+2018-02-16 12:58:22  [ main:0 ] - [ DEBUG ]  This is a debug message!
+2018-02-16 12:58:22  [ main:34 ] - [ INFO ]  This is info message!
+2018-02-16 12:58:22  [ main:34 ] - [ WARN ]  This is a warn message!
+2018-02-16 12:58:22  [ main:34 ] - [ ERROR ]  This is error message!
+2018-02-16 12:58:22  [ main:35 ] - [ ERROR ]  java.lang.ArithmeticException: / by zero
+2018-02-16 12:58:39  [ main:0 ] - [ DEBUG ]  This is a debug message!
+2018-02-16 12:58:39  [ main:36 ] - [ INFO ]  This is info message!
+2018-02-16 12:58:39  [ main:53 ] - [ WARN ]  This is a warn message!
+2018-02-16 12:58:39  [ main:54 ] - [ ERROR ]  This is error message!
+2018-02-16 12:58:39  [ main:55 ] - [ ERROR ]  java.lang.ArithmeticException: / by zero
+2018-02-16 13:05:00  [ main:0 ] - [ DEBUG ]  This is a debug message!
+2018-02-16 13:05:00  [ main:54 ] - [ INFO ]  This is info message!
+2018-02-16 13:05:00  [ main:55 ] - [ WARN ]  This is a warn message!
+2018-02-16 13:05:00  [ main:56 ] - [ ERROR ]  This is error message!
+2018-02-16 13:05:00  [ main:58 ] - [ ERROR ]  java.lang.ArithmeticException: / by zero
+2018-02-16 13:26:18  [ main:0 ] - [ DEBUG ]  This is a debug message!
+2018-02-16 13:26:18  [ main:52 ] - [ INFO ]  This is info message!
+2018-02-16 13:26:18  [ main:54 ] - [ WARN ]  This is a warn message!
+2018-02-16 13:26:18  [ main:105 ] - [ ERROR ]  This is error message!
+2018-02-16 13:26:18  [ main:106 ] - [ ERROR ]  java.lang.ArithmeticException: / by zero
+2018-02-16 13:26:26  [ main:0 ] - [ DEBUG ]  This is a debug message!
+2018-02-16 13:26:26  [ main:64 ] - [ INFO ]  This is info message!
+2018-02-16 13:26:26  [ main:66 ] - [ WARN ]  This is a warn message!
+2018-02-16 13:26:26  [ main:85 ] - [ ERROR ]  This is error message!
+2018-02-16 13:26:26  [ main:86 ] - [ ERROR ]  java.lang.ArithmeticException: / by zero
+2018-02-16 13:29:55  [ main:0 ] - [ DEBUG ]  This is a debug message!
+2018-02-16 13:29:55  [ main:55 ] - [ INFO ]  This is info message!
+2018-02-16 13:29:55  [ main:56 ] - [ WARN ]  This is a warn message!
+2018-02-16 13:29:55  [ main:56 ] - [ ERROR ]  This is error message!
+2018-02-16 13:29:55  [ main:60 ] - [ ERROR ]  java.lang.ArithmeticException: / by zero
+2018-02-16 13:30:08  [ main:0 ] - [ DEBUG ]  This is a debug message!
+2018-02-16 13:30:08  [ main:16 ] - [ INFO ]  This is info message!
+2018-02-16 13:30:08  [ main:16 ] - [ WARN ]  This is a warn message!
+2018-02-16 13:30:08  [ main:16 ] - [ ERROR ]  This is error message!
+2018-02-16 13:30:08  [ main:17 ] - [ ERROR ]  java.lang.ArithmeticException: / by zero
+2018-02-16 13:30:17  [ main:1 ] - [ DEBUG ]  This is a debug message!
+2018-02-16 13:30:17  [ main:6 ] - [ INFO ]  This is info message!
+2018-02-16 13:30:17  [ main:6 ] - [ WARN ]  This is a warn message!
+2018-02-16 13:30:17  [ main:7 ] - [ ERROR ]  This is error message!
+2018-02-16 13:30:17  [ main:7 ] - [ ERROR ]  java.lang.ArithmeticException: / by zero
+2018-02-16 13:30:34  [ main:0 ] - [ DEBUG ]  This is a debug message!
+2018-02-16 13:30:34  [ main:42 ] - [ INFO ]  This is info message!
+2018-02-16 13:30:34  [ main:50 ] - [ WARN ]  This is a warn message!
+2018-02-16 13:30:34  [ main:51 ] - [ ERROR ]  This is error message!
+2018-02-16 13:30:34  [ main:51 ] - [ ERROR ]  java.lang.ArithmeticException: / by zero
+2018-02-16 13:30:45  [ main:0 ] - [ DEBUG ]  This is a debug message!
+2018-02-16 13:30:45  [ main:50 ] - [ INFO ]  This is info message!
+2018-02-16 13:30:45  [ main:59 ] - [ WARN ]  This is a warn message!
+2018-02-16 13:30:45  [ main:59 ] - [ ERROR ]  This is error message!
+2018-02-16 13:30:45  [ main:60 ] - [ ERROR ]  java.lang.ArithmeticException: / by zero
+2018-02-16 13:37:26  [ main:1 ] - [ DEBUG ]  This is a debug message!
+2018-02-16 13:37:26  [ main:85 ] - [ INFO ]  This is info message!
+2018-02-16 13:37:26  [ main:86 ] - [ WARN ]  This is a warn message!
+2018-02-16 13:37:26  [ main:92 ] - [ ERROR ]  This is error message!
+2018-02-16 13:37:26  [ main:96 ] - [ ERROR ]  java.lang.ArithmeticException: / by zero
+2018-02-16 14:20:10  [ main:1 ] - [ DEBUG ]  This is a debug message!
+2018-02-16 14:20:10  [ main:24 ] - [ INFO ]  This is info message!
+2018-02-16 14:20:10  [ main:25 ] - [ WARN ]  This is a warn message!
+2018-02-16 14:20:10  [ main:33 ] - [ ERROR ]  This is error message!
+2018-02-16 14:20:10  [ main:44 ] - [ ERROR ]  java.lang.ArithmeticException: / by zero
+2018-02-16 14:20:26  [ main:1 ] - [ DEBUG ]  This is a debug message!
+2018-02-16 14:20:26  [ main:20 ] - [ INFO ]  This is info message!
+2018-02-16 14:20:26  [ main:22 ] - [ WARN ]  This is a warn message!
+2018-02-16 14:20:26  [ main:24 ] - [ ERROR ]  This is error message!
+2018-02-16 14:20:26  [ main:26 ] - [ ERROR ]  java.lang.ArithmeticException: / by zero
+2018-02-16 14:20:57  [ main:0 ] - [ DEBUG ]  This is a debug message!
+2018-02-16 14:20:57  [ main:28 ] - [ INFO ]  This is info message!
+2018-02-16 14:20:57  [ main:30 ] - [ WARN ]  This is a warn message!
+2018-02-16 14:20:57  [ main:31 ] - [ ERROR ]  This is error message!
+2018-02-16 14:20:57  [ main:38 ] - [ ERROR ]  java.lang.ArithmeticException: / by zero
+2018-02-16 14:35:06  [ main:0 ] - [ DEBUG ]  This is a debug message!
+2018-02-16 14:35:06  [ main:26 ] - [ INFO ]  This is info message!
+2018-02-16 14:35:06  [ main:27 ] - [ WARN ]  This is a warn message!
+2018-02-16 14:35:06  [ main:28 ] - [ ERROR ]  This is error message!
+2018-02-16 14:35:06  [ main:30 ] - [ ERROR ]  java.lang.ArithmeticException: / by zero
