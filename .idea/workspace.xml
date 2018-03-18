@@ -1,29 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6975d128-5bdc-4cde-8d3f-df63d74b2cce" name="Default" comment="update code">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/KafkaConsumerExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/KafkaProducerExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/kafkaConsumer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/kafkaProducer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Rabbitmq win7 安装配置.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/conf/log4j_es.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/conf/log4j_file_es.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/conf/logstash_kafka_server.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/conf/logstash_rabbitmq_client.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/conf/logstash_rabbitmq_server.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/conf/logstash_redis_client.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/conf/logstash_redis_server.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/kafka环境搭建" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/rabbitmq install linux.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/rabbitmq 搭建" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+    <list default="true" id="6975d128-5bdc-4cde-8d3f-df63d74b2cce" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LOG4JToELK.iml" afterPath="$PROJECT_DIR$/LOG4JToELK.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/elk-config" afterPath="$PROJECT_DIR$/src/main/resources/elk-config" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/log4j.properties" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" />
     </list>
     <list id="ddcf2828-7c3d-45f8-9107-b1718afb5e94" name="Failed commit: Default" comment="update code" />
@@ -1003,7 +982,7 @@
       <workItem from="1518761974990" duration="2677000" />
       <workItem from="1518938958368" duration="769000" />
       <workItem from="1518939752931" duration="9957000" />
-      <workItem from="1521280607009" duration="15749000" />
+      <workItem from="1521280607009" duration="15800000" />
     </task>
     <task id="LOCAL-00001" summary="update code">
       <created>1518966760035</created>
@@ -1023,11 +1002,17 @@
       <option name="project" value="LOCAL" />
       <updated>1519011214922</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="log4j code update">
+      <created>1521376643561</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1521376643562</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34652000" />
+    <option name="totallyTimeSpent" value="34703000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="457" y="32" width="1106" height="691" extended-state="0" />
@@ -1071,7 +1056,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update code" />
-    <option name="LAST_COMMIT_MESSAGE" value="update code" />
+    <MESSAGE value="log4j code update" />
+    <option name="LAST_COMMIT_MESSAGE" value="log4j code update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
