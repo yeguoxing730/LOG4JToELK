@@ -76,7 +76,7 @@ logstash.bat -f log4j_file_es.conf
 logstash_server.conf
 input {
         redis {
-                hosts => ["127.0.0.1"]           #本地的reds地址
+                host => "127.0.0.1"           #本地的reds地址
                 port => 6379                      #redis端口
                 type => "redis-input"           #输入类型
                 data_type => "list"               #使用redis的list存储数据
@@ -87,42 +87,34 @@ input {
 output {
         stdout {}
         elasticsearch {
-                hosts => ["127.0.0.1"]               #elasticsearch地址
-                cluster => "elasticsearch"
-                codec => "json"
-                protocol => "http"                  #elasticsearch使用的协议
+                hosts => ["127.0.0.1:9200"]               #elasticsearch地址
+                index => "redisfile-%{+YYYY.MM.dd}"
+				document_type => "redisfile_type"
         }
 }
 logstash.bat -f logstash_server.conf
 
 logstash_client.conf
 input {
-	file {
-		type => "type_count"
-                 #日志所在的目录
-   	        path => ["C:/ELK/logs/debug.log"]
-		exclude => ["*.gz", "access.log"]   #排除一些不想加入的日志
-	}
+    file {
+        path => "C:/ELK/logs/debug.log"
+        start_position => beginning
+        ignore_older => 0
+    }
 }
-
 output {
-	stdout {}
-	redis {
-		host => "192.168.0.65"
-		port => 6379
-		data_type => "list"         #数据类型也要保持一致
-		key => "key_count"          #key 要与服务器端的相同
-	}
+        redis {
+                host => "127.0.0.1:6379"
+                data_type => "list"
+                key => "key_count"
+        }
 }
 logstash.bat -f logstsh_client.conf
 
 测试
 启动redis 监控
 redis-cli –p 6379 monitor
-
-
-
-
-
 ## run logstash
 logstash.bat -f redis_config.conf
+4.rabbitmq way
+
